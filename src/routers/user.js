@@ -8,7 +8,7 @@ const router = new express.Router()
 
 router.post('/users', async (req, res) => {
     const user = new User(req.body)
-
+    console.log('aaaaa')
     try {
         await user.save()
         //sendWelcomeEmail(user.email, user.name)
