@@ -1,5 +1,6 @@
 const jwt = require('jsonwebtoken')
 const User = require('../models/user')
+//mongodb+srv://dbUser:lmADW2WVTThES0Wx@cluster0-lyuna.mongodb.net/test
 
 const auth = async (req, res, next) => {
     try {
